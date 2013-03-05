@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.3em
+	font-size: 11px;
+	background-color:#000;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width:400px;
+	margin-top:10%;
+	border: 2px solid #35A9FF;
+	border-radius: 8px;
+	background-color:#333;
+}
+p {
+	text-align:center;
+	color:#ccc;
+	}
+a {
+	text-decoration:none;
+	font-weight:700;
+	color: #35A9FF;
+	}
+a:hover {
+	text-decoration:underline;
+		}
+.musa{
+	text-align:right;
+	margin-right:3%;
+	font-style: italic;
+}
+.giorno0{
+    background-image:url(back-dom.jpg);
+}
+.giorno1{
+    background-image:url(back-lun.jpg);
+}
+.giorno2{
+    background-image:url(back-mar.jpg);
+}
+.giorno3{
+    background-image:url(back-mer.jpg);
+}
+.giorno4{
+    background-image:url(back-gio.jpg);
+}
+.giorno5{
+    background-image:url(back-ven.jpg);
+}
+.giorno6{
+    background-image:url(back-sab.jpg);
+}

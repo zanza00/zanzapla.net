@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ooooooops...</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<style>
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.3em
+	font-size: 11px;
+	background-color:#000;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width:400px;
+	margin-top:10%;
+	border: 2px solid #35A9FF;
+	border-radius: 8px;
+	background-color:#333;
+}
+p {
+	text-align:center;
+	color:#ccc;
+	}
+a {
+	text-decoration:none;
+	font-weight:700;
+	color: #35A9FF;
+	}
+a:hover {
+	text-decoration:underline;
+		}
+.musa{
+	text-align:right;
+	margin-right:3%;
+	font-style: italic;
+}
+.giorno0{
+    background-image:url(http://zanzapla.net/back-dom.jpg);
+}
+.giorno1{
+    background-image:url(http://zanzapla.net/back-lun.jpg);
+}
+.giorno2{
+    background-image:url(http://zanzapla.net/back-mar.jpg);
+}
+.giorno3{
+    background-image:url(http://zanzapla.net/back-mer.jpg);
+}
+.giorno4{
+    background-image:url(http://zanzapla.net/back-gio.jpg);
+}
+.giorno5{
+    background-image:url(http://zanzapla.net/back-ven.jpg);
+}
+.giorno6{
+    background-image:url(http://zanzapla.net/back-sab.jpg);
+}
+</style>
+</head>
+
+<body>
+<div id="container"><p>Non trovo la risorsa che stai cercando</p>
+  <p>controlla di aver digitato corretto</p>
+  <p>se ci sei arrivato con un link segnalamelo</p>
+<div id="counter">
+  <p>NON FUNZIONA NIENTE !!</p></div>
+</div>
+<script>
+
+
+$(document).ready(function() {
+	$("body").addClass(function () {
+		return 'giorno' + new Date().getDay()
+		})
+});
+
+//function changeBG(){ 
+//var oldWeekDay = new Date().getDay();
+//var s = -1;
+//$("#counter").text("entra nella funzione");
+//	if (s == -1 ){
+//		$("#counter").text("s == -1");
+//		s = Math.ceil(10*Math.random());
+//		setTimeout("changeBG()",1000) ;
+//	}
+//
+//	if (s == 0 ) {
+//		$("#counter").text("s uguale a 0");
+//		weekDay = Math.ceil(6*Math.random());
+//		$("body").addClass(function () {
+//			return 'giorno' + weekDay ;
+//		});
+//		s -=1;
+//		setTimeout("changeBG()",1000) ;
+//	}
+//	else {
+//		s-=1 
+//		$("#counter").text(s <= 1 ? "ancora un secondo..." : "Ancora " + s + " secondi e lo aprirò io");
+//		setTimeout("changeBG()",1000) ;
+//	}
+//
+//} 
+//changeBG();
+</script>
+</body>
+</html>
