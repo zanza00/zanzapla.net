@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* stili generali e impagnazione */
+body {
+	background-color: #000;
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 11px;
+}
+#container {
+  	margin-left: auto ;
+  	margin-right: auto ;
+	width:800px;
+	margin-top:20px;
+}
+
+/* intestazione zanzaplanet */
+#head {
+	width:200px;
+	margin-left:500px;
+	text-align:center;
+	color:#fff;
+}
+
+#head h1 {
+	color:#3366ff;
+	font-size:24px;
+}
+
+#head p {
+	font-style:italic;
+}
+
+#head a {
+	color:#36f;
+	text-decoration:none;
+}
+#head a:hover {
+	color:#00C230;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/* stile dei link per i vari tab nel documento */
+#tabs-1 a, #tabs-2 a, #tabs-3 a, #tabs-4 a, #tabs-5 a, #tabs-6 a  {
+	color : #3366ff;
+	text-decoration : none;
+}
+#tabs-1 a:hover, #tabs-2 a:hover, #tabs-3 a:hover, #tabs-4 a:hover, #tabs-5 a:hover, #tabs-6 a:hover {
+	font-style : italic;
+} 
+
+/* Stile per la parte in basso */
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	bottom:1px;
+	width:500px;
+	font-size:9px;
+	text-align:center;
+	color: #CCC;
+}
+#footer a {
+	color:#3366ff;
+	text-decoration:none;
+}
+
+/* Twitter style in social*/
+#twitter-update-list li {
+	list-style-type:none;
+}
+#twitter-update-list .twdata{
+	font-size:5px;
+}
+.twittermessage {
+	color:#CCC;
+}
+
+/* Classi varie*/
+
+.italic {
+	font-style:italic;}
